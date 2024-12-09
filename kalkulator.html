@@ -22,7 +22,18 @@
 	
 	<main>
 	<article>
-		
+		<label>
+			Podaj mase ciała <input type="number" id="masa">
+			Podaj wzrost <input type="number" id="wzrost">
+			<input type="radio" id="kg" name="type" value="kg">
+			<label for="kg">kg/cm</label>
+			<input type="radio" id="lbs" name="type" value="lbs">
+			<label for="lbs">lbs/in</label>
+		</label>
+
+		<input type="button" value="oblicz" onclick="oblicz()">
+
+		<div id="wynik"></div>
 
 		
 	</article>	
